@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body {
+    background-color: #0D192C;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #15263F;
+    width: 350px;
+    height: 596px;
+    box-shadow: 0px 25px 50px #00000018;
+    border-radius: 15px;
+
+
+}
+
+.cube {
+    position: absolute;
+    width: 302px;
+    height: 302px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;
+}
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 27.72px;
+    color: #ffffff;
+
+/* სიმაღლეს და სიგანეს რომ უწერ პროცენტებიც გასაწერია? რაღაცეებს რომ ვცლი არ იცვლება არაფერი */
+    position: absolute;
+    left: 7.34%;
+    right: 7.65%;
+    top: 350px;
+    bottom: 34.81%;
+    width: 278px;
+    height: 278px;
+    left: 24px;
+
+}
+
+.description {
+    position: absolute;
+    width: 278px;
+    height: 52px;
+    top: 394px;
+    left: 24px;    
+
+    /* ფიგმას ინსპექტში არის პროცენტებიც და პიქსელებიც, ხშირად არ ემთხვევა ხოლმე და რა თემაა? ორივეს გაწერის საჭიროება არის? */
+    /* height: 52px;
+    left: 7.34px;
+    right: 7.65px;
+    top: calc(50%-52px/2+120.5px); */
+
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #8BACD9;
+}
+
+.price {
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    top: 474px;
+    left: 42px;
+    right: 1.07%;
+    
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    size: 16px;
+    line-height: 20px;
+
+    color: #00FFF8;
+}
+
+.etherium {
+    position: absolute;
+    left: 24px;
+    top: 474px;
+}
+
+.clock {
+    position: absolute;
+    left: 228.6px;
+    height: 17.33px;
+    top: 474px;
+}
+
+.daysleft {
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    top: 474px;
+    left: 251px;
+    right: 1.07%;
+    
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+}
+
+.image {
+    position: absolute;
+    left: 24px;
+    height: 33px;
+    width: 33px;
+    top: 531px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+.creation {
+    position: absolute;
+    left: 73px;
+    height: 20px;
+    width: 81px;
+    font-weight: 400;
+    top: 537px;
+    color: #8BACD9;
+}
+
+.jules {
+    position: absolute;
+    width: 93px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16;
+    left: 159px;
+    top: 537px;
+    color: white;
+}
